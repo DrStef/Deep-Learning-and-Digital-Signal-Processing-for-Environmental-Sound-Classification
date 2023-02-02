@@ -6,7 +6,7 @@ https://github.com/karoldvl/ESC-50/
 
 Each class contains 40 .ogg files. The ESC-10 and ESC-50 datasets have been prearranged into 5 uniformly sized folds so that clips extracted from the same original source recording are always contained in a single fold.
 
-We develop our own pre-processing techniques. 
+Before we start developing more advanced techniques, we test mel-spectrograms and wavelets. With optimized pre-processing. <br> We will train a Convolution Neural Network model.  <b> At that point, we target an accuracy >= 90 %  </b> 
 
 ### Type of sounds/noises:  
 <br>
