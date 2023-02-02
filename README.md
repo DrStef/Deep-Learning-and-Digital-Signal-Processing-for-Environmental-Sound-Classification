@@ -23,10 +23,10 @@ We develop our own pre-processing techniques.
 - Class = 09-Rooster, Label = 8
 - Class = 10-Firecrackling, Label = 9
 
-### 𝐌𝐞𝐥-𝐒𝐩𝐞𝐜𝐭𝐫𝐨𝐠𝐫𝐚𝐦𝐬 𝐚𝐧𝐝 𝐂𝐨𝐧𝐯𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐚𝐥 𝐍𝐞𝐮𝐫𝐚𝐥 𝐍𝐞𝐭𝐰𝐨𝐫𝐤𝐬
+### Mel-Spectrograms and Convolutional Neural Networks
 
+ <p align="center"> <img src="Mel-Spectrogram001.png" width="350"  /> </p> 
 
-
-### Wavelet transform 𝐚𝐧𝐝 𝐂𝐨𝐧𝐯𝐨𝐥𝐮𝐭𝐢𝐨𝐧𝐚𝐥 𝐍𝐞𝐮𝐫𝐚𝐥 𝐍𝐞𝐭𝐰𝐨𝐫𝐤𝐬
+### Wavelet transform and Convolutional Neural Networks
 
 
