@@ -31,6 +31,6 @@ Optimization of mel-spectrogram parameters for best discrimination of sound cate
 
 ### Wavelet transform and Convolutional Neural Networks
     
-Optimization of wavalet selection and parameters for best discrimination of sound categories. 
+Optimization of wavelet selection and parameters for best discrimination of sound categories. 
 
 <p align="center"> <img src="Mel-Spectrogram001.png" width="800"  /> </p> 
