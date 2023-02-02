@@ -23,6 +23,26 @@ Before we start developing more advanced techniques, we test mel-spectrograms an
 - Class = 09-Rooster, Label = 8
 - Class = 10-Firecrackling, Label = 9
 
+ Note: A signal is said to be stationary if its frequency or spectral contents are not changing with respect to time.
+
+    dogbarking, babycry, personsneeze, rooster, involve the vibration and modulation of vocal tract or chords (or nasal "chords"). a bit like speech, and is considered non-stationnary.
+    Rain, seawaves are somewhat stationary, rain sounds like a bit like white noise. Let's say pseudo-stationnary because in various recordings other noises are involved at times.
+    Helicopter, chainsaw: pseudo-stationary, if the engine r.p.m does not change in a timeframe, the process is stationary. With harmomnics linked to the angular speed and the the number of "pales".
+    Firecraking, clock tick: non-stationary, impulsive. The clock tick has the signature of a mechncail vibration radiating sound.
+
+For information about noise from rotating devices: For engine depends on rpm,
+
+By selecting "representative" samples,
+    
+ There is some confusion:
+
+    in the non-stationary category resultng from vibration of tract, or nasal vibration: dogbark, rooster, person sneeze...
+    in the impulsive noise category: clocktick and firecrackling.
+
+We could improve this results, with higher definition mel-spectrogram. Or maybe high definition spectrograms.
+
+    
+    
 ### Mel-Spectrograms and Convolutional Neural Networks
 
 Optimization of mel-spectrogram parameters for best discrimination of sound categories. 
