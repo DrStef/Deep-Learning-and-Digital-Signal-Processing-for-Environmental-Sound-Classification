@@ -25,7 +25,9 @@ We develop our own pre-processing techniques.
 
 ### Mel-Spectrograms and Convolutional Neural Networks
 
- <p align="center"> <img src="Mel-Spectrogram001.png" width="350"  /> </p> 
+Optimization of mel-spectrogram parameters for best discrimination of sound categories. 
+
+<p align="center"> <img src="Mel-Spectrogram001.png" width="600"  /> </p> 
 
 ### Wavelet transform and Convolutional Neural Networks
 
