@@ -27,8 +27,8 @@ Before we start developing more advanced techniques, we test mel-spectrograms an
 
 Optimization of mel-spectrogram parameters for best discrimination of sound categories. 
 
-<p align="center"> <img src="Mel-Spectrogram001.png" width="600"  /> </p> 
+<p align="center"> <img src="Mel-Spectrogram001.png" width="800"  /> </p> 
 
 ### Wavelet transform and Convolutional Neural Networks
 
-
+<p align="center"> <img src="Mel-Spectrogram001.png" width="800"  /> </p> 
