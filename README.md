@@ -1,6 +1,8 @@
 # Deep Learning and Digital Signal Processing for Environmental Sound Classification
 
 
+<ul><ul> ESC-50 dataset is available from Dr. Piczak's Github: https://github.com/karoldvl/ESC-50/ 
+
 Automatic environmental sound classification (ESC) based on ESC-50 dataset (and ESC-10 subset) built by Karol Piczak and described in the following article:
 "Karol J. Piczak. 2015. ESC: Dataset for Environmental Sound Classification. In Proceedings of the 23rd ACM international conference on Multimedia (MM '15). Association for Computing Machinery, New York, NY, USA, 1015–1018. https://doi.org/10.1145/2733373.2806390"
 ESC-50 dataset is available from Dr. Piczak's Github: https://github.com/karoldvl/ESC-50/
