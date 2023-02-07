@@ -72,4 +72,4 @@ Optimization of mel-spectrogram parameters for best discrimination of sound cate
     
 Optimization of wavelet selection and parameters for best discrimination of sound categories. 
 
-<p align="center"> <img src="Mel-Spectrogram001.png" width="800"  /> </p> 
+<p align="center"> <img src="Wavelets_transform3_002.png" width="800"  /> </p> 
