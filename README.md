@@ -19,9 +19,9 @@ We develop our own pre-processing techniques for achieving best accuracy results
 
 ## Type of sounds/noises   
 <br>
- The ESC-10 dataset contains 5 seconds long <b>400 Ogg Vorbis audio clips</b>: sampling frequency: 44.1 kHz, 32- bits float,  and <b>10 classes</b>.  40 audio clips per class.  <br> The 10 sound/Noise classes are:    
+ The ESC-10 dataset contains 5 seconds long <b>400 Ogg Vorbis audio clips</b>: sampling frequency: 44.1 kHz, 32- bits float,  and <b>10 classes</b>. <br> 40 audio clips per class.  <br> The 10 sound/Noise classes are:  <br>  
 <br>
-    
+  
 - Class = 01-Dogbark, Label = 0
 - Class = 02-Rain, Label = 1
 - Class = 03-Seawaves, Label = 2
