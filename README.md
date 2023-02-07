@@ -35,7 +35,7 @@ We develop our own pre-processing techniques for achieving best accuracy results
 
 Quick analysis of the type of sound/noise:   
     
-- dogbarking, babycry, person sneeze, rooster, involve the vibration, resonance of vocal (or nasal) tract or cords, a bit like speech, and is considered non-stationnary. 
+- dogbarking, babycry, person sneeze, rooster, involve non-linear vibration and resonance of vocal (or nasal) tract and cords, a bit like speech, and is considered non-stationnary. 
 - Rain, sea waves are somewhat stationary, rain sounds a bit like white noise. Let's say pseudo-stationnary because in various audio clips other noises are involved at times. 
 - Helicopter, chainsaw: pseudo-stationary. If the engine r.p.m does not change in a timeframe, the process is stationary. With harmonics linked to the engine rpm, number of cylinders, and the number of rotor blades (helicopter).  
 - Fire crakling: impulsive noise. 
