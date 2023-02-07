@@ -57,7 +57,7 @@ Optimization of mel-spectrogram parameters for best discrimination of sound cate
 
 ##  Wavelet transform and Convolutional Neural Networks
     
-Optimization of wavelet selection and parameters for best discrimination of sound categories. 
+Optimization of wavelet selection and parameters for best discrimination of sound categories. <br>
 Wavelet selection: the difficulty here is the selection of the right wavelet suited to the full range of noise types: pseudo-stationary, non-stationary, transient/impulsive. <br>
 <b>Applying different wavelets to each type of sound significantly improves CNN Deep Learning accuracy.</b> Above 90%. <br> In this notebook we test the selection of different types of wavelets depending on the type of sound.  
 <br>
