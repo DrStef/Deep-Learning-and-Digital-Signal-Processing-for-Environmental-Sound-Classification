@@ -66,7 +66,7 @@ We could improve this results, with higher definition mel-spectrogram. Or maybe 
 
 Optimization of mel-spectrogram parameters for best discrimination of sound categories. 
 
-<p align="center"> <img src="Mel-Spectrogram001.png" width="800"  /> </p> 
+<p align="center"> <img src="Mel-Spectrogram3_002.png" width="800"  /> </p> 
 
 ### Wavelet transform and Convolutional Neural Networks
     
