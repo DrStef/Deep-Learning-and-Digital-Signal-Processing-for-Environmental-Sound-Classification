@@ -1,7 +1,6 @@
 # Deep Learning and Digital Signal Processing for Environmental Sound Classification
 
 <br>
-<br>
 
 ## Introduction
 <br>
@@ -19,7 +18,7 @@ We develop our own pre-processing techniques for achieving best accuracy results
 
 ## Type of sounds/noises   
 <br>
- The ESC-10 dataset contains 5 seconds long <b>400 Ogg Vorbis audio clips</b>: sampling frequency: 44.1 kHz, 32- bits float,  and <b>10 classes</b>. <br> 40 audio clips per class.  <br> The 10 sound/Noise classes are:  <br>  
+ The ESC-10 dataset contains 5 seconds long <b>400 Ogg Vorbis audio clips</b>: sampling frequency: 44.1 kHz, 32- bits float,  and <b>10 classes</b>. <br> 40 audio clips per class.  <br> The 10 Sound/Noise classes are:  <br>  
 <br>
   
 - Class = 01-Dogbark, Label = 0
@@ -46,7 +45,7 @@ Before we start developing more advanced techniques, we test mel-spectrograms an
  
 ##  Mel-Spectrograms and Convolutional Neural Networks
 
-Optimization of mel-spectrogram parameters for best discrimination of sound categories. 
+Reduction of audio clips size and optimization of mel-spectrogram parameters for best discrimination of sound categories. 
 
 <p align="center"> <img src="Mel-Spectrogram3_002.png" width="800"  /> </p> 
 
