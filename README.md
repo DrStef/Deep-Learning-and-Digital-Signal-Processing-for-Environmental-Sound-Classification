@@ -41,14 +41,9 @@ Quick analysis of the type of sound/noise:
 - Fire crakling: impulsive noise. 
 - Clock tick: It depends. Impulsive every second (frequency= 1 Hz). But in some audio clips, there are several "pulsations" in a  1 second time frame. And the ticks have the signature of a non-linear mechanical vibration that radiates sound, with harmonics.
  
-    
-  
-Each class contains 40 .ogg files. The ESC-10 and ESC-50 datasets have been prearranged into 5 uniformly sized folds so that clips extracted from the same original source recording are always contained in a single fold.
-
+   
 Before we start developing more advanced techniques, we test mel-spectrograms and wavelets. With optimized pre-processing. <br> We will train a Convolution Neural Network model.  <b> At that point, we target an accuracy >= 90 %  </b> 
-
-
-    
+ 
 ##  Mel-Spectrograms and Convolutional Neural Networks
 
 Optimization of mel-spectrogram parameters for best discrimination of sound categories. 
