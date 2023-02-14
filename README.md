@@ -45,7 +45,7 @@ Quick analysis of the type of sound/noise:
 
 Reduction of audio clips size and optimization of mel-spectrogram parameters for best discrimination of sound categories. 
 
-<p align="center"> <img src="Mel-Spectrogram3_002.png" width="800"  /> </p> 
+<p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/Melspectrogram_91pcA.png" width="800"  /> </p> 
   
 <div align="center"> 
  
