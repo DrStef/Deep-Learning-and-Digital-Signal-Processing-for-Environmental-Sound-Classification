@@ -48,6 +48,14 @@ Before we start developing more advanced techniques, we test mel-spectrograms an
 Reduction of audio clips size and optimization of mel-spectrogram parameters for best discrimination of sound categories. 
 
 <p align="center"> <img src="Mel-Spectrogram3_002.png" width="800"  /> </p> 
+  
+<div align="center"> 
+ 
+|<p align="center">   <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/MelSpectrogram_91pc_classification.png"  width="300"  />                        </p>    |  <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/MelSpectrogram_91pc.png" width="300"  /> </p> |
+| ---       | ---                          | 
+|<p align="center"> <i> Classification report </i> </p>  |  <p align="center"> <i> Confusion matrix </i> </p>       | 
+
+ </div>
 
 ##  Wavelet transform and Convolutional Neural Networks
     
