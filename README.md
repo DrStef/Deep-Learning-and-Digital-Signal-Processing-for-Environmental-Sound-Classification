@@ -41,8 +41,6 @@ Quick analysis of the type of sound/noise:
 - Clock tick: It depends. Impulsive every second (frequency= 1 Hz). But in some audio clips, there are several "pulsations" in a  1 second time frame. And the ticks have the signature of a non-linear mechanical vibration that radiates sound, with harmonics.
  
    
-Before we start developing more advanced techniques, we test mel-spectrograms and wavelets. With optimized pre-processing. <br> We will train a Convolution Neural Network model.  <b> At that point, we target an accuracy >= 90 %  </b> 
- 
 ##  Mel-Spectrograms and Convolutional Neural Networks
 
 Reduction of audio clips size and optimization of mel-spectrogram parameters for best discrimination of sound categories. 
