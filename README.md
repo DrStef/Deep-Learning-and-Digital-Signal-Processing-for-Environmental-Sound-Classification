@@ -82,19 +82,14 @@ Best Result:
  
 
 ## Jupyter Notebooks  
- 
+
+All Jupyter Notebooks sahre the same structure. They are identical except for wavelet transforms or mel-spectrogram transforms. 
  
 ###  Part III: Fusion Complex Wavelet Transform + Mel-Spectrogram and CNN 
  
  
- Optimization of wavelet selection and parameters for best discrimination of sound categories. <br>
-Wavelet selection: the difficulty here is the selection of the right wavelet suited to the full range of noise types: pseudo-stationary, non-stationary, transient/impulsive. <br>
 <b>Applying different wavelets to each type of sound significantly improves CNN Deep Learning accuracy. ~ 93%. </b>
 <br>
- 
- 
- 
- 
  
  
 ###  Part II: Complex Wavelet Transform and Convolutional Neural Networks (CNN)
