@@ -65,7 +65,7 @@ Trained a Convolutional Neural Networks with 32-64-128 256 neurons Hidden Layers
 | ---     |  ---    |
 | 256x256 Mel-spectrograms |      93 %   |
 | 128x128 Complex Wavelet Transforms Scalograms Magnitude + Phase |     93%  |
-| 128x128 Fusion Complex Wavelet Transform + Mel-Spectrograms | ~98%  |
+ | 128x128 Fusion Complex Wavelet Transform + Mel-Spectrograms | <b>~98%</b>  |
  
 Best Result: 
 
