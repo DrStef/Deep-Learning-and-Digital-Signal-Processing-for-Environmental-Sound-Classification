@@ -71,7 +71,7 @@ Best Result:
 
 <div align="center"> 
  
-|<p align="center">   <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/CNN_Fusion_ClassificationReport_98pc.png"  width="350"  /> </p>    |  <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/CNN_Fusion_ConfusionMatrix_98pc.png" width="350"  /> </p> |  
+|<p align="center">   <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/CNN_Fusion_ClassificationReport_98pc.png"  width="350"  /> </p>    |  <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/CNN_Fusion_ConfusionMatrix_98pc.png" width="300"  /> </p> |  
 | ---       | ---                          |   
 |<p align="center"> <i> Classification report </i> </p>  |  <p align="center"> <i> Confusion matrix </i> </p>       |  
 
@@ -101,7 +101,7 @@ Wavelet selection: the difficulty here is the selection of the right wavelet sui
     
 Optimization of wavelet selection and parameters for best discrimination of sound categories. <br>
 Wavelet selection: the difficulty here is the selection of the right wavelet suited to the full range of noise types: pseudo-stationary, non-stationary, transient/impulsive. <br>
-<b>Applying different wavelets to each type of sound significantly improves CNN Deep Learning accuracy. ~ 92%. </b>
+<b>Combining Mel-Spectrograms with Complex Wavelets Transforms enhances accuracy with features that are difficult to discriminate.  Accuracy. ~ 98%. </b>
 <br>
 <p align="center"> <img src="Wavelets_transform3_002.png" width="800"  /> </p> 
  
