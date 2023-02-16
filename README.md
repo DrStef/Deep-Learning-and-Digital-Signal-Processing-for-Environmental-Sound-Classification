@@ -63,9 +63,9 @@ Trained a Convolutional Neural Networks with 32-64-128 256 neurons Hidden Layers
  
 | Method | Accuracy |
 | ---     |  ---    |
-| 256x256 Mel-spectrograms |      93 %   |
-| 128x128 Complex Wavelet Transforms Scalograms Magnitude + Phase |     93%  |
- | 128x128 Fusion Complex Wavelet Transform + Mel-Spectrograms | <b>~98%</b>  |
+| 256x256 Mel-spectrograms |      92.5 %   |
+| 128x128 Complex Wavelet Transforms Scalograms Magnitude + Phase |     92.5 %  |
+ | 128x128 Fusion Complex Wavelet Transform + Mel-Spectrograms | <b>97.5 %</b>  |
  
 Best Result: 
 
