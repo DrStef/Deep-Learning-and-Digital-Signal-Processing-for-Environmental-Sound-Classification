@@ -81,29 +81,32 @@ Best Result:
  
  
  
-##  Fusion Complex Wavelet Transform + Mel-Spectrogram and Convolutional Neural Networks 
+##  Part III: Fusion Complex Wavelet Transform + Mel-Spectrogram and CNN 
+ 
+ 
+ Optimization of wavelet selection and parameters for best discrimination of sound categories. <br>
+Wavelet selection: the difficulty here is the selection of the right wavelet suited to the full range of noise types: pseudo-stationary, non-stationary, transient/impulsive. <br>
+<b>Applying different wavelets to each type of sound significantly improves CNN Deep Learning accuracy. ~ 93%. </b>
+<br>
  
  
  
  
  
  
- 
- 
- 
-##  Complex Wavelet Transform and Convolutional Neural Networks
+##  Part II: Complex Wavelet Transform and Convolutional Neural Networks (CNN)
     
 Optimization of wavelet selection and parameters for best discrimination of sound categories. <br>
 Wavelet selection: the difficulty here is the selection of the right wavelet suited to the full range of noise types: pseudo-stationary, non-stationary, transient/impulsive. <br>
-<b>Applying different wavelets to each type of sound significantly improves CNN Deep Learning accuracy. Above 90%. </b>
+<b>Applying different wavelets to each type of sound significantly improves CNN Deep Learning accuracy. ~ 92%. </b>
 <br>
 <p align="center"> <img src="Wavelets_transform3_002.png" width="800"  /> </p> 
  
  
    
-##  Mel-Spectrograms and Convolutional Neural Networks
+##  Part I: Mel-Spectrograms and Convolutional Neural Networks (CNN)
 
-Reduction of audio clips size and optimization of mel-spectrogram parameters for best discrimination of sound categories. 
+Reduction of audio clips size and optimization of mel-spectrogram parameters for best discrimination of sound categories. ~92%
 
 <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/Melspectrogram_91pcA.png" width="800"  /> </p> 
   
