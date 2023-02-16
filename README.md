@@ -71,7 +71,7 @@ Best Result:
 
 <div align="center"> 
  
-|<p align="center">   <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/MelSpectrogram_91pc_classification.png"  width="300"  />                        </p>    |  <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/MelSpectrogram_91pc.png" width="300"  /> </p> |
+|<p align="center">   <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/CNN_Fusion_ClassificationReport_98pc.png"  width="300"  />                        </p>    |  <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/CNN_Fusion_ConfusionMatrix_98pc.png" width="300"  /> </p> |
 | ---       | ---                          | 
 |<p align="center"> <i> Classification report </i> </p>  |  <p align="center"> <i> Confusion matrix </i> </p>       | 
 
