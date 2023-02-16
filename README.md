@@ -40,6 +40,30 @@ Quick analysis of the type of sound/noise:
 - Fire crakling: impulsive noise. But with pseudo-stationary background noise.  
 - Clock tick: It depends. Impulsive every second (frequency= 1 Hz). But in some audio clips, there are several "pulsations" in a  1 second time frame. And the ticks have the signature of a non-linear mechanical vibration that radiates sound, with harmonics.
  
+
+## Methodology
+ 
+- In an effort to reduce the size of the problem and computation time, while retaining relevant information, we:  
+    - reduce audio sampling frequency from 44.1 kHz to 16 or 24 kHz.     
+    - reduce the size of audio clips, to 1.25s, based on signal power considerations. Too many audio clips have occurences of the same sound phenomenon: dog barking, baby crying for example and most of the signal is "silence". 
+- Normalize audio signal amplitude to 1. (0 dBFS). 
+- Plot mel-spectrograms or Wavelet transforms in the 10 classes. We empirically optimized wavelet selection. And wavelet transform parameters. 
+- Reduce the size of scalograms (some details are lost).
+- Deep learning with CNN on gray-scale mel-spectrogram scalograms. 
+ 
+We tested three methods: 
+ 
+ 
+## Results Synthesis  
+ 
+ 
+| Method | Accuracy |
+| ---     |  ---    |
+| 256x256 Mel-spectrogramss |      93 %   |
+| 128x128 Complex Wavelet Transforms Scalograms Magnitude + Phase |     93%  |
+| 128x128 Fusion Complex Wavelet Transform + Mel-Spectrograms | ~98%  |
+ 
+ 
    
 ##  Mel-Spectrograms and Convolutional Neural Networks
 
