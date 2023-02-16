@@ -53,15 +53,30 @@ Quick analysis of the type of sound/noise:
  
 We tested three methods: 
  
+
+ 
+Trained a Convolutional Neural Networks with 32-64-128 256 neurons Hidden Layers. Parameters are detailed in the various notebooks. 
+ 
  
 ## Results Synthesis  
  
  
 | Method | Accuracy |
 | ---     |  ---    |
-| 256x256 Mel-spectrogramss |      93 %   |
+| 256x256 Mel-spectrograms |      93 %   |
 | 128x128 Complex Wavelet Transforms Scalograms Magnitude + Phase |     93%  |
 | 128x128 Fusion Complex Wavelet Transform + Mel-Spectrograms | ~98%  |
+ 
+Best Result: 
+
+<div align="center"> 
+ 
+|<p align="center">   <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/MelSpectrogram_91pc_classification.png"  width="300"  />                        </p>    |  <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/MelSpectrogram_91pc.png" width="300"  /> </p> |
+| ---       | ---                          | 
+|<p align="center"> <i> Classification report </i> </p>  |  <p align="center"> <i> Confusion matrix </i> </p>       | 
+
+ </div>
+ 
  
  
    
@@ -71,13 +86,7 @@ Reduction of audio clips size and optimization of mel-spectrogram parameters for
 
 <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/Melspectrogram_91pcA.png" width="800"  /> </p> 
   
-<div align="center"> 
- 
-|<p align="center">   <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/MelSpectrogram_91pc_classification.png"  width="300"  />                        </p>    |  <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/MelSpectrogram_91pc.png" width="300"  /> </p> |
-| ---       | ---                          | 
-|<p align="center"> <i> Classification report </i> </p>  |  <p align="center"> <i> Confusion matrix </i> </p>       | 
 
- </div>
 
 ##  Wavelet transform and Convolutional Neural Networks
     
