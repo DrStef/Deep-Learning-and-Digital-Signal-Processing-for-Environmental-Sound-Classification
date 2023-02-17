@@ -85,7 +85,7 @@ Best Result:
 
 All Jupyter Notebooks sahre the same structure. They are identical except for wavelet transforms or mel-spectrogram transforms. 
  
-###  Part III: Fusion Complex Wavelet Transform + Mel-Spectrogram and CNN 
+###  Part III: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN 
  
  
 <b>Applying different wavelets to each type of sound significantly improves CNN Deep Learning accuracy. ~ 98%. </b>
