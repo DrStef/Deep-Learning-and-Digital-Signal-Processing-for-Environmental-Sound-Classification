@@ -87,10 +87,14 @@ All Jupyter Notebooks sahre the same structure. They are identical except for wa
  
 ###  Part III: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN 
  
- 
+
+
 <b>Applying different wavelets to each type of sound significantly improves CNN Deep Learning accuracy. ~ 98%. </b>
 <br>
+ <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/CWT_mel_rooster_grayscale.png" width="800"  /> </p> 
  
+ <br>
+ <br>
  
 ###  Part II: Complex Wavelet Transform and Convolutional Neural Networks (CNN)
     
