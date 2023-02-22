@@ -144,7 +144,7 @@ Attribution-NonCommercial license (http://creativecommons.org/licenses/by-nc/3.0
 The ESC-10 subset is licensed as a Creative Commons Attribution 3.0 Unported <br>
 (https://creativecommons.org/licenses/by/3.0/) dataset.
 
-Licensing/attribution details for individual audio clips are available in file: 
+Licensing/attribution details for individual audio clips are available in file: <br>
+
  
- 
- 
+[License](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/LICENSE)
