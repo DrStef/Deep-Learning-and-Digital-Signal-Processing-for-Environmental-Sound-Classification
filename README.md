@@ -14,6 +14,8 @@ The following recent article is a descriptive survey for Environmental sound cla
 Anam Bansal, Naresh Kumar Garg, <b><i>"Environmental Sound Classification: A descriptive review of the literature,</i></b> Intelligent Systems with Applications, Volume 16, 2022, 200115, ISSN 2667-3053, https://doi.org/10.1016/j.iswa.2022.200115.  <br>
 <br>
 
+Dr. Piczak maintains a Table with best results in his Github, with authors, publication, method used. We reproduce the top of the Table here, for supervised classification. 
+
 | <sub>Title</sub> | <sub>Notes</sub> | <sub>Accuracy</sub> | <sub>Paper</sub> | <sub>Code</sub> |
 | :--- | :--- | :--- | :--- | :--- |
 | <sub>**BEATs: Audio Pre-Training with Acoustic Tokenizers**</sub> | <sub>Transformer model pretrained with acoustic tokenizers</sub> | <sub>98.10%</sub> | <sub>[chen2022](https://arxiv.org/pdf/2212.09058.pdf)</sub> | <a href="https://aka.ms/beats">:scroll:</a>   |
@@ -21,12 +23,14 @@ Anam Bansal, Naresh Kumar Garg, <b><i>"Environmental Sound Classification: A des
 | <sub>**CLAP: Learning Audio Concepts From Natural Language Supervision**</sub> | <sub>CNN model pretrained by natural language supervision</sub> | <sub>96.70%</sub> | <sub>[elizalde2022](https://arxiv.org/pdf/2206.04769.pdf)</sub> | <a href="https://github.com/microsoft/CLAP">:scroll:</a> |
 | <sub>**AST: Audio Spectrogram Transformer**</sub> | <sub>Pure Attention Model Pretrained on AudioSet</sub> | <sub>95.70%</sub> | <sub>[gong2021](https://arxiv.org/pdf/2104.01778.pdf)</sub> | <a href="https://github.com/YuanGongND/ast">:scroll:</a> |
 | <sub>**Connecting the Dots between Audio and Text without Parallel Data through Visual Knowledge Transfer**</sub> | <sub>A Transformer model pretrained w/ visual image supervision</sub> | <sub>95.70%</sub> | <sub>[zhao2022](https://arxiv.org/pdf/2112.08995.pdf)</sub> | <a href="https://github.com/zhaoyanpeng/vipant">:scroll:</a> |
-
-
-
 <br>
-We develop our own pre-processing techniques for achieving best accuracy results based on <i>Bansal et al.</i><br>
-<span style="color:#4169E1">  <b> At that point, and before we start working on more advanced techniques, we test mel-spectrograms and wavelet transforms. <br> We will train a Convolution Neural Network with spectrograms and scalograms. <br>We target an accuracy >>90 %.   </b>    
+
+
+We develop our own pre-processing techniques for achieving best accuracy results based on Dr. Piczak Table and <i>Bansal et al.</i><br>
+<span style="color:#4169E1">  <b> At that point, and before we start working on more advanced techniques:
+ - we work with ESC-10 sub-dataset.
+ - we test mel-spectrograms and wavelet transforms. <br> 
+ We will train a Convolution Neural Network with spectrograms and scalograms. <br>We target an accuracy >>90 %.   </b>    
 
 ## Type of sounds/noises   
 <br>
