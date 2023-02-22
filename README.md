@@ -99,7 +99,7 @@ Best Result:
 
 ## Jupyter Notebooks  
 
-All Jupyter Notebooks sahre the same structure. They are identical except for wavelet transforms or mel-spectrogram transforms. 
+All Jupyter Notebooks share the same structure. They are identical except for wavelet transforms or mel-spectrogram transforms. 
  
 ###  Part III: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN 
  
