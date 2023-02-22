@@ -127,7 +127,24 @@ Wavelet selection: the difficulty here is the selection of the right wavelet sui
 Reduction of audio clips size and optimization of mel-spectrogram parameters for best discrimination of sound categories. ~92%
 
 <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/Melspectrogram_91pcA.png" width="800"  /> </p> 
-  
+ 
+ 
+ 
+##  License 
+ 
+ESC-50: Dataset for Environmental Sound Classification <br>
+https://github.com/karoldvl/ESC-50/  <br>
+https://dx.doi.org/10.7910/DVN/YDEPUT  <br>
 
+Dataset license
 
+The dataset as a whole is available under the terms of the Creative Commons
+Attribution-NonCommercial license (http://creativecommons.org/licenses/by-nc/3.0/).
 
+The ESC-10 subset is licensed as a Creative Commons Attribution 3.0 Unported <br>
+(https://creativecommons.org/licenses/by/3.0/) dataset.
+
+Licensing/attribution details for individual audio clips are available in file: 
+ 
+ 
+ 
