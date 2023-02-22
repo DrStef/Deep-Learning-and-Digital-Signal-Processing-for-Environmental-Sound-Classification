@@ -28,9 +28,10 @@ Dr. Piczak maintains a Table with best results in his Github, with authors, publ
 
 We develop our own pre-processing techniques for achieving best accuracy results based on Dr. Piczak Table and <i>Bansal et al.</i><br>
 <span style="color:#4169E1">  <b> At that point, and before we start working on more advanced techniques:
- - we work with ESC-10 sub-dataset.
+ - we work with the ESC-10 sub-dataset.
  - we test mel-spectrograms and wavelet transforms. <br> 
- We will train a Convolution Neural Network with spectrograms and scalograms. <br>We target an accuracy >>90 %.   </b>    
+ 
+ We will train a Convolution Neural Network with grayscale spectrograms and scalograms. We target an accuracy >>90 %. </b>    
 
 ## ESC-10 Type of sounds/noises   
 <br>
@@ -56,7 +57,10 @@ Quick analysis of the type of sound/noise:
 - Fire crakling: impulsive noise. But with pseudo-stationary background noise.  
 - Clock tick: It depends. Impulsive every second (frequency= 1 Hz). But in some audio clips, there are several "pulsations" in a  1 second time frame. And the ticks have the signature of a non-linear mechanical vibration that radiates sound, with harmonics.
  
+## Quick Literature review
+ 
 
+ 
 ## Methodology
  
 - In an effort to reduce the size of the problem and computation time, while retaining relevant information, we:  
