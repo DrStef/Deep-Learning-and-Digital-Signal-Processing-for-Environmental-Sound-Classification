@@ -128,11 +128,11 @@ Wavelet selection: the difficulty here is the selection of the right wavelet sui
 
 <p align="center"> <img src="Wavelets_transform3_002.png" width="800"  /> </p> 
  
-<b>Applying different wavelets to each type of sound significantly improves CNN Deep Learning accuracy. ~ 93%. </b> 
+<b>Applying different wavelets to each type of sound significantly improves CNN Deep Learning accuracy. ~ 94%. </b> 
    
 ###  Part I: Mel-Spectrograms and Convolutional Neural Networks (CNN)
 
-Reduction of audio clips size and optimization of mel-spectrogram parameters for best discrimination of sound categories. ~92%
+Reduction of audio clips size and optimization of mel-spectrogram parameters for best discrimination of sound categories. ~92.5%
 
 <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/Melspectrogram_91pcA.png" width="800"  /> </p> 
  
