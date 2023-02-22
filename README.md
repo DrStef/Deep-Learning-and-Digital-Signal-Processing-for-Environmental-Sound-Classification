@@ -68,10 +68,14 @@ Quick analysis of the type of sound/noise:
 - Deep learning with CNN on gray-scale mel-spectrogram scalograms. 
  
 We tested three methods: 
- 
 
- 
-Trained a Convolutional Neural Networks with 32-64-128 256 neurons Hidden Layers. Parameters are detailed in the various notebooks. 
+- Mel-spectrograms.
+- Complex Continuous Wavelet Transforms (CWT).
+- Fusion mel-spectrograms-wavelet transforms.   
+
+
+We trained a Convolutional Neural Networks with 32-64-128-256 neurons hidden layers. Parameters are detailed in the notebooks CNN section. <br>
+Note: Although mel-spectrograms and wavelet transform are shown in color, the CNN is trained with grayscale images.   
  
  
 ## ESC-10  Results Synthesis  
