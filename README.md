@@ -32,7 +32,7 @@ We develop our own pre-processing techniques for achieving best accuracy results
  - we test mel-spectrograms and wavelet transforms. <br> 
  We will train a Convolution Neural Network with spectrograms and scalograms. <br>We target an accuracy >>90 %.   </b>    
 
-## Type of sounds/noises   
+## ESC-10 Type of sounds/noises   
 <br>
  The ESC-10 dataset contains 5 seconds long <b>400 Ogg Vorbis audio clips</b>: sampling frequency: 44.1 kHz, 32- bits float,  and <b>10 classes</b>. <br> 40 audio clips per class.  <br> The 10 Sound/Noise classes are:  <br>  
 <br>
@@ -74,14 +74,14 @@ We tested three methods:
 Trained a Convolutional Neural Networks with 32-64-128 256 neurons Hidden Layers. Parameters are detailed in the various notebooks. 
  
  
-## Results Synthesis  
+## ESC-10  Results Synthesis  
  
  
-| Method | Accuracy |
-| ---     |  ---    |
-| 256x256 Mel-spectrograms |      92.5 %   |
-| 128x128 Complex Wavelet Transforms Scalograms Magnitude + Phase |     92.5 %  |
- | 128x128 Fusion Complex Wavelet Transform + Mel-Spectrograms | <b>97.5 %</b>  |
+|<sub> Method</sub> |<sub> Accuracy </sub>|
+| :--- | :--- |
+| <sub>256x256 Mel-spectrograms</sub> |    <sub>  92.5 %  </sub>  |
+| <sub>128x128 Complex Wavelet Transforms Scalograms Magnitude + Phase </sub>|   <sub>  92.5 % </sub> |
+ |<sub> 128x128 Fusion Complex Wavelet Transform + Mel-Spectrograms </sub>| <sub><b>97.5 %</b> </sub> |
  
 Best Result: 
 
