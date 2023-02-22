@@ -78,8 +78,8 @@ We tested three methods:
 - Fusion mel-spectrograms-wavelet transforms.   
 
 
-We trained a Convolutional Neural Networks with 32-64-128-256 neurons hidden layers. Parameters are detailed in the notebooks CNN section. <br>
-Note: Although mel-spectrograms and wavelet transform are shown in color, the CNN is trained with grayscale images.   
+After a 80\%/20% train/test sets split, we train a Convolutional Neural Networks with 32-64-128-256 neurons hidden layers. Parameters are detailed in the notebooks CNN section. <br>
+Note: Although mel-spectrograms and wavelet transforms are shown in color, the CNN is trained with grayscale images.   
  
  
 ## ESC-10  Results Synthesis  
