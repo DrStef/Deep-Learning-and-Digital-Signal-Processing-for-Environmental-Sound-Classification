@@ -31,7 +31,8 @@ We develop our own pre-processing techniques for achieving best accuracy results
  - we work with the ESC-10 sub-dataset.
  - we test mel-spectrograms and wavelet transforms. <br> 
  
- We will train a Convolution Neural Network with grayscale spectrograms and scalograms. We target an accuracy >>90 %. </b>    
+ We will train a Convolution Neural Network with grayscale spectrograms and scalograms. We target an accuracy >>90 %. </b>  
+ When tests with the most effective methods are completed, we will run predictions with various audio clips downloaded from Youtube.     
 
 ## ESC-10 Type of sounds/noises   
 <br>
@@ -64,18 +65,18 @@ Quick analysis of the type of sound/noise:
 ## Methodology
  
 - In an effort to reduce the size of the problem and computation time, while retaining relevant information, we:  
-    - reduce audio sampling frequency from 44.1 kHz to 16 or 24 kHz.     
+    - reduce audio sampling frequency from 44.1 kHz to 22.05 kHz.     
     - reduce the size of audio clips, to 1.25s, based on signal power considerations. Too many audio clips have occurences of the same sound phenomenon: dog barking, baby crying for example and most of the signal is "silence". 
 - Normalize audio signal amplitude to 1. (0 dBFS). 
-- Plot mel-spectrograms or Wavelet transforms in the 10 classes. We empirically optimized wavelet selection. And wavelet transform parameters. 
-- Reduce the size of scalograms (some details are lost).
-- Deep learning with CNN on gray-scale mel-spectrogram scalograms. 
+- Compute mel-spectrograms or Wavelet transforms in the 10 classes. We empirically optimized wavelet selection. And wavelet transform parameters. 
+- Reduce the size of scalograms in the time domain (some details are lost).
+- Train a CNN on 256x256 grayscale mel-spectrograms or 2 series of 128x128 grayscale scalograms: magnitude and phase. Train/Test split: 80/20 %
  
 We tested three methods: 
 
 - Mel-spectrograms.
-- Complex Continuous Wavelet Transforms (CWT).
-- Fusion mel-spectrograms-wavelet transforms.   
+- Complex Continuous Wavelet Transforms (complex CWT).
+- Fusion mel-spectrograms + complex CWT.   
 
 
 After a 80\%/20% train/test sets split, we train a Convolutional Neural Networks with 32-64-128-256 neurons hidden layers. Parameters are detailed in the notebooks CNN section. <br>
@@ -88,9 +89,9 @@ Best accuracy with 3 different methods are synthesized in the the Table below.
  
 |<sub> Method</sub> |<sub> Accuracy </sub>|
 | :--- | :--- |
-| <sub>256x256 Mel-spectrograms</sub> |    <sub>  92.5 %  </sub>  |
-| <sub>128x128 Complex Wavelet Transforms Scalograms Magnitude + Phase </sub>|   <sub>  94 % </sub> |
- |<sub> 128x128 Fusion Complex Wavelet Transform + Mel-Spectrograms </sub>| <sub><b>99 %</b> </sub> |
+| <sub> 256x256 Mel-spectrograms</sub> |    <sub>  92.5 %  </sub>  |
+ | <sub> 128x128 Complex CWT Scalograms Magnitude + Phase </sub>|   <sub> <b> 94 % </b></sub> |
+ |<sub> 128x128 Fusion Complex CWT + Mel-Spectrograms </sub>| <sub><b>99 %</b> </sub> |
  
 Details of the best result with the "Fusion" method:   
 
