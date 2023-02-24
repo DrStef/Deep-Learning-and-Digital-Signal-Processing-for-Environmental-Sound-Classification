@@ -84,6 +84,7 @@ Note: Although mel-spectrograms and wavelet transforms are shown in color, the C
  
 ## ESC-10  Results Synthesis  
  
+Best accuracy with 3 different methods are synthesized in the the Table below. 
  
 |<sub> Method</sub> |<sub> Accuracy </sub>|
 | :--- | :--- |
@@ -91,7 +92,7 @@ Note: Although mel-spectrograms and wavelet transforms are shown in color, the C
 | <sub>128x128 Complex Wavelet Transforms Scalograms Magnitude + Phase </sub>|   <sub>  94 % </sub> |
  |<sub> 128x128 Fusion Complex Wavelet Transform + Mel-Spectrograms </sub>| <sub><b>99 %</b> </sub> |
  
-Best Result: 
+Details of the best result with the "Fusion" method:   
 
 <div align="center"> 
  
