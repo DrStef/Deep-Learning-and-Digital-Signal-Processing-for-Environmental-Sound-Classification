@@ -125,7 +125,21 @@ Reduction of audio clips size and optimization of mel-spectrogram parameters for
 Optimization of wavelet selection and parameters for best discrimination of sound categories. <br>
 Wavelet selection: the difficulty here is the selection of the right wavelet suited to the full range of noise types: pseudo-stationary, non-stationary, transient/impulsive. <br>
 
-<p align="center"> <img src="Wavelets_transform3_002.png" width="800"  /> </p> 
+<div align="center"> 
+
+|<p align="center"><img src="CWT_Magnitude_3pics.png"  width="600"  /> </p> | 
+|                                             :---                          |  
+| <p align="center"> <sub><b> Scalograms magnitude (dB)</b></sub> </p>      |  
+
+</div>
+ 
+<div align="center"> 
+
+| <p align="center"> <img src="CWT_Phase_3pics.png" width="600"  /> </p>  |  
+|                           :---                                          |  
+| <p align="center"> <sub><b> Scalograms phase (rad)</b></sub> </p>       |  
+
+</div>
  
 <b>Applying different wavelets to each type of sound significantly improves CNN Deep Learning accuracy. ~ 94%. </b> 
 
