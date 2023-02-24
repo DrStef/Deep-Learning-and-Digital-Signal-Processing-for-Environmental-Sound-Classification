@@ -32,7 +32,7 @@ We develop our own pre-processing techniques for achieving best accuracy results
  - we test mel-spectrograms and wavelet transforms. <br> 
  
  We will train a Convolution Neural Network with grayscale spectrograms and scalograms. We target an accuracy >>90 %. </b>  
- When tests with the most effective methods are completed, we will run predictions with various audio clips downloaded from Youtube.     
+ When tests with the most effective CNN algorithm implementation are completed, we will run predictions with various audio clips downloaded from Youtube. And eventually update hyperparameters. 
 
 ## ESC-10 Type of sounds/noises   
 <br>
