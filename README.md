@@ -95,7 +95,7 @@ Best Result:
 
 <div align="center"> 
  
-|<p align="center">   <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/CNN_Fusion_ClassificationReport_98pc.png"  width="350"  /> </p>    |  <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/CNN_Fusion_ConfusionMatrix_98pc.png" width="300"  /> </p> |  
+|<p align="center">   <img src="Fusion_Wavelet_Phase_Classification_99pc.png"  width="350"  /> </p>    |  <p align="center"> <img src="Fusion_Wavelet_Phase_ConfusionMatrix_99pc.png" width="300"  /> </p> |  
 | :---       | :---                          |   
 |<p align="center"> <sub><b> Classification report </b></sub> </p>  |  <p align="center"> <sub><b> Confusion matrix </b></sub> </p>       |  
 
@@ -133,7 +133,7 @@ Wavelet selection: the difficulty here is the selection of the right wavelet sui
  
 ###  Part III: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN 
  
-Combining Mel-Spectrograms with Complex Wavelets Transforms enhances accuracy with features that are difficult to discriminate.  Accuracy. ~ 98%. </b>
+Combining Mel-Spectrograms with Complex Wavelets Transforms enhances accuracy with features that are difficult to discriminate.  Accuracy. ~ 99%. </b>
 
 <br>
  <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/CWT_mel_rooster_grayscale.png" width="800"  /> </p> 
