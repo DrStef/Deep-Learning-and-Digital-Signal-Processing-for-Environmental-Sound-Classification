@@ -90,8 +90,8 @@ Best accuracy with 3 different methods are synthesized in the the Table below.
 |<sub> Method</sub> |<sub> Accuracy </sub>|
 | :--- | :--- |
 | <sub> 256x256 Mel-spectrograms</sub> |    <sub>  92.5 %  </sub>  |
- | <sub> 128x128 Complex CWT Scalograms Magnitude + Phase </sub>|   <sub> <b> 94 % </b></sub> |
- |<sub> 128x128 Fusion Complex CWT + Mel-Spectrograms </sub>| <sub><b>99 %</b> </sub> |
+| <sub> 128x128 Complex CWT Scalograms Magnitude + Phase </sub>|   <sub> <b> 94 % </b></sub> |
+|<sub> 128x128 Fusion Complex CWT + Mel-Spectrograms </sub>| <sub><b>99 %</b> </sub> |
  
 Details of the best result with the "Fusion" method:   
 
@@ -114,9 +114,17 @@ All Jupyter Notebooks share the same structure. They are identical except for wa
  ###  <ul> Part I: Mel-Spectrograms and Convolutional Neural Networks (CNN) </ul>
 
 Reduction of audio clips size and optimization of mel-spectrogram parameters for best discrimination of sound categories. ~92.5%
+ 
+<div align="center"> 
 
-<p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/Melspectrogram_91pcA.png" width="800"  /> </p>  
+| <p align="center"> <img src="Melspectrogram_91pcA.png" width="750"  /> </p>  |  
+|                           :---                                          |  
+| <p align="center"> <sub><b><i> Mel-spectrograms (dB)</i></b></sub> </p>       |  
 
+</div> 
+ 
+ 
+ 
 <br>
 
 ### <ul>[Part II: Complex Wavelet Transform and Convolutional Neural Networks (CNN)](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/ESC10-Sound-Classification-WaveletTransforms_phase_v06.ipynb) </ul>
@@ -127,17 +135,17 @@ Wavelet selection: the difficulty here is the selection of the right wavelet sui
 
 <div align="center"> 
 
-|<p align="center"><img src="CWT_Magnitude_3pics.png"  width="600"  /> </p> | 
+|<p align="center"><img src="CWT_Magnitude_3pics.png"  width="750"  /> </p> | 
 |                                             :---                          |  
-| <p align="center"> <sub><b> Scalograms magnitude (dB)</b></sub> </p>      |  
+| <p align="center"> <sub><b> <i>Scalograms magnitude (dB)</i></b></sub> </p>      |  
 
 </div>
  
 <div align="center"> 
 
-| <p align="center"> <img src="CWT_Phase_3pics.png" width="600"  /> </p>  |  
+| <p align="center"> <img src="CWT_Phase_3pics.png" width="750"  /> </p>  |  
 |                           :---                                          |  
-| <p align="center"> <sub><b> Scalograms phase (rad)</b></sub> </p>       |  
+| <p align="center"> <sub><b><i> Scalograms phase (rad)</i></b></sub> </p>       |  
 
 </div>
  
@@ -148,7 +156,15 @@ Wavelet selection: the difficulty here is the selection of the right wavelet sui
 ### <ul> Part III: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN  </ul>
  
 
- <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/CWT_mel_rooster_grayscale.png" width="800"  /> </p> 
+
+ <div align="center"> 
+
+| <p align="center"> <img src="CWT_mel_rooster_grayscale.png" width="750"  /> </p>  |  
+|                           :---                                          |  
+| <p align="center"> <sub><b> <i>Rooster: Scalogram Magnitude Phase + Mel-spectrogram (dB)</i></b></sub> </p>       |  
+
+</div> 
+ 
 
 <b> Combining Mel-Spectrograms with Complex Wavelets Transforms enhances accuracy with features that are difficult to discriminate.  Accuracy. ~ 99%. </b>
 <br> 
