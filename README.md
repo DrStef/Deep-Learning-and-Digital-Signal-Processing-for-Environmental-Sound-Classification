@@ -109,7 +109,7 @@ Best Result:
 
 All Jupyter Notebooks share the same structure. They are identical except for wavelet transforms or mel-spectrogram transforms. 
  
-###  Part I: Mel-Spectrograms and Convolutional Neural Networks (CNN)
+ ###  <ul> Part I: Mel-Spectrograms and Convolutional Neural Networks (CNN) </ul>
 
 Reduction of audio clips size and optimization of mel-spectrogram parameters for best discrimination of sound categories. ~92.5%
 
@@ -117,8 +117,6 @@ Reduction of audio clips size and optimization of mel-spectrogram parameters for
 
 <br>
 
- 
-###  
 ### <ul>[Part II: Complex Wavelet Transform and Convolutional Neural Networks (CNN)](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/ESC10-Sound-Classification-WaveletTransforms_phase_v06.ipynb) </ul>
  
  
@@ -131,8 +129,7 @@ Wavelet selection: the difficulty here is the selection of the right wavelet sui
 
  <br>  
 
- 
-###  Part III: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN 
+### <ul> Part III: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN  </ul>
  
 
  <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/CWT_mel_rooster_grayscale.png" width="800"  /> </p> 
