@@ -159,7 +159,7 @@ Wavelet selection: the difficulty here is the selection of the right wavelet sui
 
  <div align="center"> 
 
-| <p align="center"> <img src="CWT_mel_rooster_grayscale.png" width="750"  /> </p>  |  
+| <p align="center"> <img src="Fusion_images_3pics.png" width="750"  /> </p>  |  
 |                           :---                                          |  
 | <p align="center"> <sub><b> <i>Rooster: Scalogram Magnitude Phase + Mel-spectrogram (dB)</i></b></sub> </p>       |  
 
