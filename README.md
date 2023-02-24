@@ -126,16 +126,18 @@ Wavelet selection: the difficulty here is the selection of the right wavelet sui
 <p align="center"> <img src="Wavelets_transform3_002.png" width="800"  /> </p> 
  
 <b>Applying different wavelets to each type of sound significantly improves CNN Deep Learning accuracy. ~ 94%. </b> 
-<br>  
+
+ <br>  
 
  
 ###  Part III: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN 
  
 <b> Combining Mel-Spectrograms with Complex Wavelets Transforms enhances accuracy with features that are difficult to discriminate.  Accuracy. ~ 99%. </b>
 
-<br>
+
  <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/CWT_mel_rooster_grayscale.png" width="800"  /> </p> 
- 
+
+<br> 
  
 ##  License 
  
