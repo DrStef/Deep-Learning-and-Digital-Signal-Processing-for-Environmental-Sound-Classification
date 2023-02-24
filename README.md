@@ -133,7 +133,7 @@ Wavelet selection: the difficulty here is the selection of the right wavelet sui
  
 ###  Part III: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN 
  
-Combining Mel-Spectrograms with Complex Wavelets Transforms enhances accuracy with features that are difficult to discriminate.  Accuracy. ~ 99%. </b>
+<b> Combining Mel-Spectrograms with Complex Wavelets Transforms enhances accuracy with features that are difficult to discriminate.  Accuracy. ~ 99%. </b>
 
 <br>
  <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/CWT_mel_rooster_grayscale.png" width="800"  /> </p> 
