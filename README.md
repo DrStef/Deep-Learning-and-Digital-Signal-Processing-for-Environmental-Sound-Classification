@@ -88,8 +88,8 @@ Note: Although mel-spectrograms and wavelet transforms are shown in color, the C
 |<sub> Method</sub> |<sub> Accuracy </sub>|
 | :--- | :--- |
 | <sub>256x256 Mel-spectrograms</sub> |    <sub>  92.5 %  </sub>  |
-| <sub>128x128 Complex Wavelet Transforms Scalograms Magnitude + Phase </sub>|   <sub>  92.5 % </sub> |
- |<sub> 128x128 Fusion Complex Wavelet Transform + Mel-Spectrograms </sub>| <sub><b>97.5 %</b> </sub> |
+| <sub>128x128 Complex Wavelet Transforms Scalograms Magnitude + Phase </sub>|   <sub>  94 % </sub> |
+ |<sub> 128x128 Fusion Complex Wavelet Transform + Mel-Spectrograms </sub>| <sub><b>99 %</b> </sub> |
  
 Best Result: 
 
@@ -109,11 +109,11 @@ Best Result:
 
 All Jupyter Notebooks share the same structure. They are identical except for wavelet transforms or mel-spectrogram transforms. 
  
-###  Part III: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN 
- 
-Combining Mel-Spectrograms with Complex Wavelets Transforms enhances accuracy with features that are difficult to discriminate.  Accuracy. ~ 98%. </b>
+###  Part I: Mel-Spectrograms and Convolutional Neural Networks (CNN)
 
+Reduction of audio clips size and optimization of mel-spectrogram parameters for best discrimination of sound categories. ~92.5%
 
+<p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/Melspectrogram_91pcA.png" width="800"  /> </p> 
 
 <br>
  <p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/CWT_mel_rooster_grayscale.png" width="800"  /> </p> 
@@ -130,13 +130,12 @@ Wavelet selection: the difficulty here is the selection of the right wavelet sui
  
 <b>Applying different wavelets to each type of sound significantly improves CNN Deep Learning accuracy. ~ 94%. </b> 
    
-###  Part I: Mel-Spectrograms and Convolutional Neural Networks (CNN)
 
-Reduction of audio clips size and optimization of mel-spectrogram parameters for best discrimination of sound categories. ~92.5%
+ 
+###  Part III: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN 
+ 
+Combining Mel-Spectrograms with Complex Wavelets Transforms enhances accuracy with features that are difficult to discriminate.  Accuracy. ~ 98%. </b>
 
-<p align="center"> <img src="https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/Melspectrogram_91pcA.png" width="800"  /> </p> 
- 
- 
  
 ##  License 
  
