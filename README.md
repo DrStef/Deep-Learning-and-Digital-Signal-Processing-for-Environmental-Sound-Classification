@@ -109,7 +109,7 @@ Details of the best result with the "Fusion" method:
 
 ## Jupyter Notebooks  
 
-All Jupyter Notebooks share the same structure. They are identical except for wavelet transforms or mel-spectrogram transforms. 
+All Jupyter Notebooks share the same structure. They are identical except when we implement wavelet transforms or mel-spectrogram transforms. 
  
  ###  <ul> [Part I: Mel-Spectrograms and Convolutional Neural Networks (CNN)](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/ESC10-Sound-Classification-Mel-Spectrograms_v04.ipynb) </ul>
 
