@@ -113,7 +113,7 @@ All Jupyter Notebooks share the same structure. They are identical except for wa
  
  ###  <ul> [Part I: Mel-Spectrograms and Convolutional Neural Networks (CNN)](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/ESC10-Sound-Classification-Mel-Spectrograms_v04.ipynb) </ul>
 
-Reduction of audio clips size and optimization of mel-spectrogram parameters for best discrimination of sound categories. ~92.5%
+Reduction of audio clips length and optimization of mel-spectrogram parameters for best discrimination of sound categories. We train the CNN with 256x256 grayscale images. Accuracy: ~92.5%
  
 <div align="center"> 
 
@@ -130,8 +130,9 @@ Reduction of audio clips size and optimization of mel-spectrogram parameters for
 ### <ul>[Part II: Complex Wavelet Transform and Convolutional Neural Networks (CNN)](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/ESC10-Sound-Classification-WaveletTransforms_phase_v06.ipynb) </ul>
  
  
-Optimization of wavelet selection and parameters for best discrimination of sound categories. <br>
+Optimization of wavelet selection and parameters for best discrimination of sound classes. <br>
 Wavelet selection: the difficulty here is the selection of the right wavelet suited to the full range of noise types: pseudo-stationary, non-stationary, transient/impulsive. <br>
+Applying different wavelets to each type of sound significantly improves classification accuracy. We train the CNN with 2 128x128 grayscale images per audio clip: scalogram magnitude and phase. Accuracy <b> ~ 94%. </b> 
 
 <div align="center"> 
 
@@ -149,13 +150,14 @@ Wavelet selection: the difficulty here is the selection of the right wavelet sui
 
 </div>
  
-<b>Applying different wavelets to each type of sound significantly improves CNN Deep Learning accuracy. ~ 94%. </b> 
+
 
  <br>  
 
 ### <ul> Part III: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN  </ul>
  
-
+Combining Mel-Spectrograms (Part I) with Complex Wavelets Transforms (Part II) enhances accuracy with features that are difficult to discriminate. We train the CNN with 3 128x128 grayscale images per audio clip.  Accuracy. <b> ~ 99%. </b>
+<br> 
 
  <div align="center"> 
 
@@ -166,8 +168,7 @@ Wavelet selection: the difficulty here is the selection of the right wavelet sui
 </div> 
  
 
-<b> Combining Mel-Spectrograms with Complex Wavelets Transforms enhances accuracy with features that are difficult to discriminate.  Accuracy. ~ 99%. </b>
-<br> 
+
  
 ##  License 
  
