@@ -111,7 +111,7 @@ Details of the best result with the "Fusion" method:
 
 All Jupyter Notebooks share the same structure. They are identical except for wavelet transforms or mel-spectrogram transforms. 
  
- ###  <ul> Part I: Mel-Spectrograms and Convolutional Neural Networks (CNN) </ul>
+ ###  <ul> [Part I: Mel-Spectrograms and Convolutional Neural Networks (CNN)](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/ESC10-Sound-Classification-Mel-Spectrograms_v04.ipynb) </ul>
 
 Reduction of audio clips size and optimization of mel-spectrogram parameters for best discrimination of sound categories. ~92.5%
  
