@@ -154,7 +154,7 @@ Applying different wavelets to each type of sound significantly improves classif
 
  <br>  
 
-### <ul> Part III: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN  </ul>
+### <ul> [Part III: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/ESC10-Sound-Classification-WaveletMelSpecTransforms_Fusion_v03.ipynb)  </ul>
  
 Combining Mel-Spectrograms (Part I) with Complex Wavelets Transforms (Part II) enhances accuracy with features that are difficult to discriminate. We train the CNN with 3 128x128 grayscale images per audio clip.  Accuracy. <b> ~ 99%. </b>
 <br> 
