@@ -167,7 +167,7 @@ Combining Mel-Spectrograms (Part I) with Complex Wavelets Transforms (Part II) e
 
 </div> 
 
-### <ul> [Part IV: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/ESC10-Sound-Classification-WaveletMelSpecTransforms_Fusion_v03.ipynb)  </ul>
+### <ul> [Part IV: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/ESC10-Sound-Classification-WaveletMelSpecTransforms_Fusion_v04_rev2.ipynb)  </ul>
 
 
 This noetbook is an imrpoved version of Part III.  
