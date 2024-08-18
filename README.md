@@ -174,7 +174,7 @@ This noetbook is an imrpoved version of Part III.
 We implement a 2-stages classification process: 
 
 
-STAGE I: Pre-classification
+<b>STAGE I: Pre-classification</b>
 
 We define two sounds classes A,B:
 -harmonics
@@ -192,7 +192,7 @@ We define two sounds classes A,B:
 
 This part is left as an exercise. 
 
-STAGE II: Classification: 
+<b>STAGE II: Classification:</b>
 
 We apply two sets of complex continuous wavelets to each sound class A, B and run the whol classification problem with a multi-feature CNN.
 
@@ -203,7 +203,7 @@ We apply two sets of complex continuous wavelets to each sound class A, B and ru
 
 
 
-Results: 
+<b>RESULTS:</b>
 
 
 |<p align="center">   <img src="Fusion_Wavelet_Phase_Classification_99pc.png"  width="350"  /> </p> | <p align="center"> <img src="Fusion_Wavelet_Phase_ConfusionMatrix_99pc.png" width="300"  /> </p> |  
@@ -238,7 +238,9 @@ Using the strategy decribed in this Notebook, and replacing the unwrap CWT phase
     
 At the moment, the <i>aT-CWT</i> Transform is confidential. <br> At some point, it will be published and the ESC-10 notebook with 100% accuracy will be made public. 
 
-
+|<p align="center">   <img src="Classificationreport_100pc.png"  width="350"  /> </p> | <p align="center"> <img src="esc10_v23_100pc.png" width="300"  /> </p> |  
+| ---       | ---       |   
+|<center><b><i> Classification report </i></b> </center> | <center> <b><i> Confusion matrix </i></b> </center> | 
 
 
 
@@ -255,7 +257,7 @@ At the moment, the <i>aT-CWT</i> Transform is confidential. <br> At some point, 
 
 
  
-
+<br>
 <br>
 <br>
 
