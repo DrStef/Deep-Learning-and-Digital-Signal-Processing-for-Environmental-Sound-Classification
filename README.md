@@ -108,8 +108,92 @@ Details of the best result with the "Fusion" method:
  
 
 ## Jupyter Notebooks  
+<br>
+All Jupyter Notebooks share the same structure. They are identical except when we implement wavelet transforms or mel-spectrogram transforms. <br>
+The classification method and the CNN model were updated. Older Jupyter Notebooks: Part I. II. III. are at the bottom. 
 
-All Jupyter Notebooks share the same structure. They are identical except when we implement wavelet transforms or mel-spectrogram transforms. 
+
+### <ul> [Part IV: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/ESC10-Sound-Classification-WaveletMelSpecTransforms_Fusion_v04_rev2.ipynb)  </ul>
+
+
+This notebook is an improved version of Part III. <b>We implement a 2-stages classification process</b>: 
+
+<b>STAGE I: Pre-classification</b>
+
+We define two sounds classes A,B:
+- harmonics
+- non harmonics. 
+
+| <p align="center">   <img src="StageI_preclassificationv2.png"  width="800"  /> </p> |
+| --- | 
+|<center> <b><i> Methodology:  Stage I  </i></b> </center> |
+
+<span style="color:#4169E1">   Results:
+    
+|<p align="center">   <img src="ESC10_ClassificationStageI.png"  width="350"  /> </p> | <p align="center"> <img src="ESC10_ConfusionMatrixStageI.png" width="250"  /> </p> |  
+| ---       | ---       |   
+|<center> <b><i> Classification report </i></b> </center> | <center> <b><i> Confusion matrix </i></b> </center>|
+
+This part is left as an exercise. 
+
+<b>STAGE II: Classification:</b>
+
+We apply two sets of complex continuous wavelets to each sound class A, B and run the whol classification problem with a multi-feature CNN.
+
+  
+| <p align="center">   <img src="StageII_classification_I.png"  width="800"  /> </p> |
+| --- |  
+|<center> <b><i> Methodology Stage II  </i></b> </center> |   
+
+
+
+<b>RESULTS:</b>
+
+
+|<p align="center">   <img src="Fusion_Wavelet_Phase_Classification_99pc.png"  width="350"  /> </p> | <p align="center"> <img src="Fusion_Wavelet_Phase_ConfusionMatrix_99pc.png" width="300"  /> </p> |  
+| ---       | ---       |   
+|<center><b><i> Classification report </i></b> </center> | <center> <b><i> Confusion matrix </i></b> </center> | 
+
+The remaining confusion: "sea wave" "rain" is solved by developping a transform of the CWT: <i> aT-CWT </i>. <br>
+Preliminary results are presented in Part V.  The <i> aT-CWT </i> transform is currently confidential. 
+
+### <ul> Part V: the aT-CWT transform
+
+Discriminating "sea wave" and "rain" is a challenge given the quasi Gaussian nature of the sound in both cases. <br>
+We were able to solve it with a criteria replacing the wavelet phase and we achieved a <b> 100% accuracy</b>.   <br>
+    We implemented an advanced Transform of the CWT that we called <i>aT-CWT</i> <br>
+The new <i>aT-CWT</i> transform:
+    
+- can have the dimensions of the other features: Mel spectrograms, CWT magnitude and phase. In the present study: 128x128.
+- the time localization info of the CWT is lost. <i>aT-CWT</i>  makes sense for:
+    - stationary, pseudo-stationary sounds even for large period of time (here 1.25s) which is the case with the "no-harmonics" sounds in the present ESC-10 dataset.
+    - any type of signals (including non stationary) in very short time frames. For example: speech, frame= 32 ms, fs= 16kHz (512 points). 
+<br> 
+    
+Using the strategy decribed in this Notebook, and replacing the unwrap CWT phase with the new <i>aT-CWT</i> Transform in the "no-harmonics" subset, <b> we were able to reach 100% accuracy. </b> <br>
+    
+|<p align="center">   <img src="SW_CWT.png"  width="600"  /> </p> | 
+| ---       | 
+|<center><b><i> CWT of a ESC-10 'Sea Wave' (116): Magnitude + Phase </i></b> </center> | 
+     
+    
+| <p align="center"> <img src="SW_aT-CWT.png" width="250"  /> </p> |  
+| ---       |   
+| <center> <b><i> Transform of the CWT:  aT-CWT </i></b> </center> |     
+    
+At the moment, the <i>aT-CWT</i> Transform is confidential. <br> At some point, it will be published and the ESC-10 notebook with 100% accuracy will be made public. 
+
+|<p align="center">   <img src="Classificationreport_100pc.png"  width="350"  /> </p> | <p align="center"> <img src="esc10_v23_100pc.png" width="300"  /> </p> |  
+| ---       | ---       |   
+|<center><b><i> Classification report </i></b> </center> | <center> <b><i> Confusion matrix </i></b> </center> | 
+
+<br>
+<br> 
+<b> Older Notebooks </b>
+<br>
+Initial tests with Mel-Spectrogram, complex CWT, and multi-feature Mel-spectrogram + complex CWT CNN models. 
+
+
  
  ###  <ul> [Part I: Mel-Spectrograms and Convolutional Neural Networks (CNN)](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/ESC10-Sound-Classification-Mel-Spectrograms_v04.ipynb) </ul>
 
@@ -166,85 +250,6 @@ Combining Mel-Spectrograms (Part I) with Complex Wavelets Transforms (Part II) e
 | <p align="center"> <sub><b> <i>Rooster: Scalogram Magnitude (dB),  Phase (rad) + Mel-spectrogram (dB)</i></b></sub> </p>       |  
 
 </div> 
-
-### <ul> [Part IV: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/ESC10-Sound-Classification-WaveletMelSpecTransforms_Fusion_v04_rev2.ipynb)  </ul>
-
-
-This noetbook is an imrpoved version of Part III.  
-We implement a 2-stages classification process: 
-
-
-<b>STAGE I: Pre-classification</b>
-
-We define two sounds classes A,B:
--harmonics
--non harmonics. 
-
-| <p align="center">   <img src="StageI_preclassificationv2.png"  width="800"  /> </p> |
-| --- | 
-|<center> <b><i> Methodology:  Stage I  </i></b> </center> |
-
-<span style="color:#4169E1">   Results:
-    
-|<p align="center">   <img src="ESC10_ClassificationStageI.png"  width="350"  /> </p> | <p align="center"> <img src="ESC10_ConfusionMatrixStageI.png" width="250"  /> </p> |  
-| ---       | ---       |   
-|<center> <b><i> Classification report </i></b> </center> | <center> <b><i> Confusion matrix </i></b> </center>|
-
-This part is left as an exercise. 
-
-<b>STAGE II: Classification:</b>
-
-We apply two sets of complex continuous wavelets to each sound class A, B and run the whol classification problem with a multi-feature CNN.
-
-  
-| <p align="center">   <img src="StageII_classification_I.png"  width="800"  /> </p> |
-| --- |  
-|<center> <b><i> Methodology Stage II  </i></b> </center> |   
-
-
-
-<b>RESULTS:</b>
-
-
-|<p align="center">   <img src="Fusion_Wavelet_Phase_Classification_99pc.png"  width="350"  /> </p> | <p align="center"> <img src="Fusion_Wavelet_Phase_ConfusionMatrix_99pc.png" width="300"  /> </p> |  
-| ---       | ---       |   
-|<center><b><i> Classification report </i></b> </center> | <center> <b><i> Confusion matrix </i></b> </center> | 
-
-
-
-### <ul> Part V: the aT-CWT transform
-
-Discriminating "sea wave" and "rain" is a challenge given the quasi Gaussian nature of the sound in both cases. <br>
-We were able to solve it with a criteria replacing the wavelet phase and we achieved a <b> 100% accuracy</b>.   <br>
-    We implemented an advanced Transform of the CWT that we called <i>aT-CWT</i> <br>
-The new <i>aT-CWT</i> transform:
-    
-- can have the dimensions of the other features: Mel spectrograms, CWT magnitude and phase. In the present study: 128x128.
-- the time localization info of the CWT is lost. <i>aT-CWT</i>  makes sense for:
-    - stationary, pseudo-stationary sounds even for large period of time (here 1.25s) which is the case with the "no-harmonics" sounds in the present ESC-10 dataset.
-    - any type of signals (including non stationary) in very short time frames. For example: speech, frame= 32 ms, fs= 16kHz (512 points). 
-<br> 
-    
-Using the strategy decribed in this Notebook, and replacing the unwrap CWT phase with the new <i>aT-CWT</i> Transform in the "no-harmonics" subset, <b> we were able to reach 100% accuracy. </b> <br>
-    
-|<p align="center">   <img src="SW_CWT.png"  width="600"  /> </p> | 
-| ---       | 
-|<center><b><i> CWT of a ESC-10 'Sea Wave' (116): Magnitude + Phase </i></b> </center> | 
-     
-    
-| <p align="center"> <img src="SW_aT-CWT.png" width="250"  /> </p> |  
-| ---       |   
-| <center> <b><i> Transform of the CWT:  aT-CWT </i></b> </center> |     
-    
-At the moment, the <i>aT-CWT</i> Transform is confidential. <br> At some point, it will be published and the ESC-10 notebook with 100% accuracy will be made public. 
-
-|<p align="center">   <img src="Classificationreport_100pc.png"  width="350"  /> </p> | <p align="center"> <img src="esc10_v23_100pc.png" width="300"  /> </p> |  
-| ---       | ---       |   
-|<center><b><i> Classification report </i></b> </center> | <center> <b><i> Confusion matrix </i></b> </center> | 
-
-
-
-
 
 
 
