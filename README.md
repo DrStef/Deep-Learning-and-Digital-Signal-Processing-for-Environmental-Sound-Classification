@@ -109,7 +109,7 @@ Details of the best result with the "Fusion" method:
 
 ## Jupyter Notebooks  
 <br>
-All Jupyter Notebooks share the same structure. They are identical except when we implement wavelet transforms or mel-spectrogram transforms. <br>
+All Jupyter Notebooks share the same structure.  <br>
 The classification method and the CNN model were updated. Older Jupyter Notebooks: Part I. II. III. are at the bottom. 
 
 
