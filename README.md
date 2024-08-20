@@ -121,9 +121,11 @@ This notebook is an improved version of Part III. <b>We implement a 2-stages cla
 <b>STAGE I: Pre-classification</b>
 
 We define two sounds classes A,B:
-- harmonics
-- non harmonics. 
 
+- “Harmonics sounds”: <i> Dog barking, Baby cry, Clock tick, Person sneeze, Helicopter, Chainsaw, Rooster. </i>
+- “Non-harmonics sounds”: <i> Rain, Seawaves, Fire crackling.  </i>
+
+<br>
 | <p align="center">   <img src="StageI_preclassificationv2.png"  width="800"  /> </p> |
 | --- | 
 |<center> <b><i> Methodology:  Stage I  </i></b> </center> |
