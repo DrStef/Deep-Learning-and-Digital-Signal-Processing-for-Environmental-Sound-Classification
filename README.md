@@ -360,7 +360,7 @@ You can install these packages using pip:
 
 pip install numpy pandas matplotlib seaborn scikit-learn tensorflow librosa 
 
-Using conda you can replicate the environment in stephane_dedieu_sound_classification.yml:
+Using conda you can replicate the environment in stephane_dedieu_sound_classification.yml: <br>
 conda env create -n ENVNAME --file   stephane_dedieu_sound_classification.yml
 
 ### License
