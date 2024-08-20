@@ -1,0 +1,22 @@
+name: stephane_dedieu_sound_classification
+channels:
+  - http://conda.anaconda.org/gurobi
+  - defaults
+dependencies:
+  - python=3.7
+  - notebook
+  - pandas
+  - matplotlib
+  - numpy
+  - scikit-learn
+  - keras
+  - pydot
+  - tensorflow
+  - keras
+  - searborn
+  - librosa 
+  - glob2
+  - scikit-image
+
+
+
