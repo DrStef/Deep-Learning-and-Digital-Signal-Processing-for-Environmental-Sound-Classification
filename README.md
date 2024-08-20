@@ -339,22 +339,22 @@ To run the code and reproduce the results,
     -conda install -c conda-forge librosa
 7. Run the notebook: jupyter notebook 
 
- ensure you have the following Python packages installed:
+Ensure you have the following Python packages installed:
  
-pandas
-matplotlib
-numpy
-scikit-learn
-keras
-pydot
-tensorflow
-librosa
-glob2
-keras
-notebook
-librosa
-seaborn
-scikit-image
+- pandas
+- matplotlib
+- numpy
+- scikit-learn
+- keras
+- pydot
+- tensorflow
+- librosa
+- glob2
+- keras
+- notebook
+- librosa
+- seaborn
+- scikit-image
 
 You can install these packages using pip:
 
