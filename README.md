@@ -134,7 +134,7 @@ We define two sounds classes A,B:
 | ---       | ---       |   
 |<center> <b><i> Classification report </i></b> </center> | <center> <b><i> Confusion matrix </i></b> </center>|
 
-A 100% acuracy classification was acheived with Mel-spectrogram between 0-2000Hz and a CNN model.  <br> 
+A 100% acuracy classification was achieved with Mel-spectrograms defined between 0-2000Hz and a CNN model.  <br> 
 <b> At the moment this stage is left as an exercise. </b> We will propose a simpler method. 
 
 <b>STAGE II: Classification:</b>
