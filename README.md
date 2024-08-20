@@ -134,11 +134,12 @@ We define two sounds classes A,B:
 | ---       | ---       |   
 |<center> <b><i> Classification report </i></b> </center> | <center> <b><i> Confusion matrix </i></b> </center>|
 
-This part is left as an exercise. 
+A 100% acuracy classification was acheived with Mel-spectrogram between 0-2000Hz and a CNN model.  <br> 
+<b> At the moment this stage is left as an exercise. </b> We will propose a simpler method. 
 
 <b>STAGE II: Classification:</b>
 
-We apply two sets of complex continuous wavelets to each sound class A, B and run the whol classification problem with a multi-feature CNN.
+We apply two sets of complex continuous wavelets to each sound class A, B and run the whole classification problem with a multi-feature CNN: CWT Magntitude and Phase + Mel-spectrograms
 
   
 | <p align="center">   <img src="StageII_classification_I.png"  width="800"  /> </p> |
@@ -321,6 +322,46 @@ Combining Mel-Spectrograms (Part I) with Complex Wavelets Transforms (Part II) e
 
   Additional data pertaining to the crowdsourcing experiment (human classification accuracy).
 
+
+
+### Package Requirements
+
+To run the code and reproduce the results,
+
+1. Download Anaconda for Python 3: https://www.anaconda.com/products/individual 
+2. Install Jupyter Lab: conda install -c conda-forge jupyterlab 
+3. Install Jupyer Notebook: conda install -c conda-forge notebook 
+4. Upload the prepared conda environment: conda env create -f stephane_dedieu_sound_classification.yml 
+   Activate the environment: conda activate stephane_dedieu_sound_classification 
+5. Alternative to 4: pip install -r requirements.txt
+   Sometimes librosa will not install, you can try then:
+    -conda install -c numba numba
+    -conda install -c conda-forge librosa
+7. Run the notebook: jupyter notebook 
+
+ ensure you have the following Python packages installed:
+ 
+pandas
+matplotlib
+numpy
+scikit-learn
+keras
+pydot
+tensorflow
+librosa
+glob2
+keras
+notebook
+librosa
+seaborn
+scikit-image
+
+You can install these packages using pip:
+
+pip install numpy pandas matplotlib seaborn scikit-learn tensorflow librosa 
+
+Using conda you can replicate the environment in stephane_dedieu_sound_classification.yml:
+conda env create -n ENVNAME --file   stephane_dedieu_sound_classification.yml
 
 ### License
 
