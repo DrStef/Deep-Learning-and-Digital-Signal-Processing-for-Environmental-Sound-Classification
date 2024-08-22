@@ -57,11 +57,8 @@ Quick analysis of the type of sound/noise:
 - Helicopter, chainsaw: pseudo-stationary. If the engine r.p.m does not change in a timeframe, the process is stationary. With harmonics linked to the engine rpm, number of cylinders, and the number of rotor blades (helicopter).  
 - Fire crakling: impulsive noise. But with pseudo-stationary background noise.  
 - Clock tick: It depends. Impulsive every second (frequency= 1 Hz). But in some audio clips, there are several "pulsations" in a  1 second time frame. And the ticks have the signature of a non-linear mechanical vibration that radiates sound, with harmonics.
- 
-## Quick Literature review
- 
 
- 
+  
 ## Methodology
  
 - In an effort to reduce the size of the problem and computation time, while retaining relevant information, we:  
