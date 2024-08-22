@@ -178,12 +178,12 @@ Using the strategy decribed in this Notebook, and replacing the unwrap CWT phase
     
 |<p align="center">   <img src="SW_CWT.png"  width="600"  /> </p> | 
 | ---       | 
-|<center><b><i> CWT of a ESC-10 'Sea Wave' (116): Magnitude + Phase </i></b> </center> | 
+|<center><b><i> 'cgau5' CWT of a ESC-10 'Sea Wave' (116): Magnitude + Phase </i></b> </center> | 
 
 
 |<p align="center">   <img src="Rain_CWT.png"  width="600"  /> </p> | 
 | ---       |
-|<center><b><i> CWT of a ESC-10 'Rain' (48): Magnitude + Phase </i></b> </center> | 
+|<center><b><i> 'cgau5' CWT of a ESC-10 'Rain' (48): Magnitude + Phase </i></b> </center> | 
 
      
     
