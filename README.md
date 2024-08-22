@@ -126,6 +126,7 @@ We define two sounds classes A,B:
 - “Non-harmonics sounds”: <i> Rain, Seawaves, Fire crackling.  </i>
 
 <br>
+
 | <p align="center">   <img src="StageI_preclassificationv2.png"  width="800"  /> </p> |
 | --- | 
 |<center> <b><i> Methodology:  Stage I  </i></b> </center> |
@@ -163,8 +164,8 @@ Preliminary results are presented in Part V.  The <i> aT-CWT </i> transform is c
 ### <ul> Part V: the aT-CWT transform
 
 Discriminating "sea wave" and "rain" is a challenge given the quasi Gaussian nature of the sound in both cases. <br>
-We were able to solve it with a criteria replacing the wavelet phase and we achieved a <b> 100% accuracy</b>.   <br>
-    We implemented an advanced Transform of the CWT that we called <i>aT-CWT</i> <br>
+We were able to solve it with a criteria replacing the unwrap CWT phase and we achieved <b> 100% accuracy</b>.   <br>
+This criteria is an advanced Transform of the CWT that we called <i>aT-CWT</i> <br>
 The new <i>aT-CWT</i> transform:
     
 - can have the dimensions of the other features: Mel spectrograms, CWT magnitude and phase. In the present study: 128x128.
@@ -182,7 +183,7 @@ Using the strategy decribed in this Notebook, and replacing the unwrap CWT phase
     
 | <p align="center"> <img src="SW_aT-CWT.png" width="250"  /> </p> |  
 | ---       |   
-| <center> <b><i> Transform of the CWT:  aT-CWT </i></b> </center> |     
+| <center> <b><i> Transform of the CWT:  aT-CWT <br> Units are hidden. </i></b> </center> |     
     
 At the moment, the <i>aT-CWT</i> Transform is confidential. <br> At some point, it will be published and the ESC-10 notebook with 100% accuracy will be made public. 
 
@@ -191,8 +192,9 @@ At the moment, the <i>aT-CWT</i> Transform is confidential. <br> At some point, 
 |<center><b><i> Classification report </i></b> </center> | <center> <b><i> Confusion matrix </i></b> </center> | 
 
 <br>
-<br> 
-<b> Older Notebooks </b>
+
+## Older Notebooks 
+<br>
 <br>
 Initial tests with Mel-Spectrogram, complex CWT, and multi-feature Mel-spectrogram + complex CWT CNN models. 
 
