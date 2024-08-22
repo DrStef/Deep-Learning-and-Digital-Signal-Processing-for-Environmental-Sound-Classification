@@ -179,11 +179,17 @@ Using the strategy decribed in this Notebook, and replacing the unwrap CWT phase
 |<p align="center">   <img src="SW_CWT.png"  width="600"  /> </p> | 
 | ---       | 
 |<center><b><i> CWT of a ESC-10 'Sea Wave' (116): Magnitude + Phase </i></b> </center> | 
+
+
+|<p align="center">   <img src="Rain_CWT.png"  width="600"  /> </p> | 
+| ---       | 
+|<center><b><i> CWT of a ESC-10 'Rain' (48): Magnitude + Phase </i></b> </center> | 
+
      
     
-| <p align="center"> <img src="SW_aT-CWT.png" width="250"  /> </p> |  
+| <p align="center"> <img src="at_CWT_seawave116.png" width="250"  /> </p> | <p align="center"> <img src="at_CWT_rain48.png" width="250"  /> </p> |  
 | ---       |   
-| <center> <b><i> Transform of the CWT:  aT-CWT <br> Units are hidden. </i></b> </center> |     
+| <center> <b><i> Sea wave  aT-CWT transform <br> Units are hidden. </i></b> </center> | <center> <b><i> Rain aT-CWT transform <br> Units are hidden. </i></b> </center> |     
     
 At the moment, the <i>aT-CWT</i> Transform is confidential. <br> At some point, it will be published and the ESC-10 notebook with 100% accuracy will be made public. 
 
