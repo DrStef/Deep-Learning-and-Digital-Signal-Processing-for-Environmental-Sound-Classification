@@ -110,10 +110,10 @@ All Jupyter Notebooks share the same structure.  <br>
 The classification method and the CNN model were updated. Older Jupyter Notebooks: Part I. II. III. are at the bottom. 
 
 
-### <ul> [Part IV: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/ESC10-Sound-Classification-WaveletMelSpecTransforms_Fusion_v04_rev2.ipynb)  </ul>
+### <ul> [Part IV: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/ESC10-Sound-Classification-WaveletMelSpecTransforms_Fusion_v04_rev3.ipynb)  </ul>
 
 
-This notebook is an improved version of Part III. <b>We implement a 2-stages classification process</b>: 
+This notebook is an improved version of Part III. <b>We implement a 2-stage classification process</b>: 
 
 <b>STAGE I: Pre-classification</b>
 
