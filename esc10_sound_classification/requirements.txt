@@ -1,0 +1,10 @@
+numpy
+matplotlib
+librosa
+PyWavelets
+tensorflow
+scikit-learn
+seaborn
+scikit-image
+pytest
+flake8
