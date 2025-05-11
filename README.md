@@ -104,7 +104,7 @@ Details of the best result with the "Fusion" method:
 
 <div align="center"> 
  
-|<p align="center">   <img src="Fusion_Wavelet_Phase_Classification_99pc.png"  width="350"  /> </p>    |  <p align="center"> <img src="Fusion_Wavelet_Phase_ConfusionMatrix_99pc.png" width="300"  /> </p> |  
+|<p align="center">   <img src="esc10_sound_classification/docs/figures/Fusion_Wavelet_Phase_Classification_99pc.png"  width="350"  /> </p>    |  <p align="center"> <img src="esc10_sound_classification/docs/figures/Fusion_Wavelet_Phase_ConfusionMatrix_99pc.png" width="300"  /> </p> |  
 | :---       | :---                          |   
 |<p align="center"> <sub><b> Classification report </b></sub> </p>  |  <p align="center"> <sub><b> Confusion matrix </b></sub> </p>       |  
 
@@ -120,7 +120,7 @@ All Jupyter Notebooks share the same structure.  <br>
 The classification method and the CNN model were updated. Older Jupyter Notebooks: Part I. II. III. are at the bottom. 
 
 
-### <ul> [Part IV: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/ESC10-Sound-Classification-WaveletMelSpecTransforms_Fusion_v04_rev3.ipynb)  </ul>
+### <ul> [Part IV: Fusion: Complex Wavelet Transforms + Mel-Spectrograms and CNN](https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/blob/main/ESC10-Sound-Classification-WaveletMelSpecTransforms_Fusion_v04_rev4.ipynb)  </ul>
 
 
 This notebook is an improved version of Part III. <b>We implement a 2-stage classification process</b>: 
@@ -134,13 +134,13 @@ We define two sounds classes A,B:
 
 <br>
 
-| <p align="center">   <img src="StageI_preclassificationv2.png"  width="800"  /> </p> |
+| <p align="center">   <img src="esc10_sound_classification/docs/figures/StageI_preclassificationv2.png"  width="800"  /> </p> |
 | --- | 
 | <p align="center">  <sub><b> Methodology:  Stage I   </sub></b> </p> |
 
 <span style="color:#4169E1">   Results:
     
-|<p align="center">   <img src="ESC10_ClassificationStageI.png"  width="350"  /> </p> | <p align="center"> <img src="ESC10_ConfusionMatrixStageI.png" width="250"  /> </p> |  
+|<p align="center">   <img src="esc10_sound_classification/docs/figures/ESC10_ClassificationStageI.png"  width="350"  /> </p> | <p align="center"> <img src="esc10_sound_classification/docs/figures/ESC10_ConfusionMatrixStageI.png" width="250"  /> </p> |  
 | ---       | ---       |   
 |<p align="center">  <sub><b> Classification report  </sub></b>   </p> | <p align="center">  <sub><b> Confusion matrix  </sub></b> </p>|
 
@@ -152,7 +152,7 @@ A 100% acuracy classification was achieved with Mel-spectrograms defined between
 We apply two sets of complex continuous wavelets to each sound class A, B and run the whole classification problem with a multi-feature CNN: CWT Magntitude and Phase + Mel-spectrograms
 
   
-| <p align="center">   <img src="StageII_classification_I.png"  width="800"  /> </p> |
+| <p align="center">   <img src="esc10_sound_classification/docs/figures/StageII_classification_I.png"  width="800"  /> </p> |
 | --- |  
 |<p align="center">  <sub><b>  Methodology Stage II  </sub></b> </p> |   
 
@@ -161,7 +161,7 @@ We apply two sets of complex continuous wavelets to each sound class A, B and ru
 <b>RESULTS:</b>
 
 
-|<p align="center">   <img src="Fusion_Wavelet_Phase_Classification_99pc.png"  width="350"  /> </p> | <p align="center"> <img src="Fusion_Wavelet_Phase_ConfusionMatrix_99pc.png" width="300"  /> </p> |  
+|<p align="center">   <img src="esc10_sound_classification/docs/figures/Fusion_Wavelet_Phase_Classification_99pc.png"  width="350"  /> </p> | <p align="center"> <img src="esc10_sound_classification/docs/figures/Fusion_Wavelet_Phase_ConfusionMatrix_99pc.png" width="300"  /> </p> |  
 | ---       | ---       |   
 |<p align="center">   <sub><b> Classification report  </sub></b> </center> | <p align="center">  <sub><b> Confusion matrix  </sub></b></p> | 
 
@@ -183,18 +183,18 @@ The new <i>aT-CWT</i> transform:
     
 Using the strategy decribed in this Notebook, and replacing the unwrap CWT phase with the new <i>aT-CWT</i> Transform in the "no-harmonics" subset, <b> we were able to reach 100% accuracy. </b> <br>
     
-|<p align="center">   <img src="SW_CWT.png"  width="600"  /> </p> | 
+|<p align="center">   <img src="esc10_sound_classification/docs/figures/SW_CWT.png"  width="600"  /> </p> | 
 | ---       | 
 |<p align="center">   <sub><b>  'cgau5' CWT of a ESC-10 'Sea Wave' (116): Magnitude + Phase  </sub></b>  </p> | 
 
 
-|<p align="center">   <img src="Rain_CWT.png"  width="600"  /> </p> | 
+|<p align="center">   <img src="esc10_sound_classification/docs/figures/Rain_CWT.png"  width="600"  /> </p> | 
 | ---       |
 |<p align="center">  <sub><b> 'cgau5' CWT of a ESC-10 'Rain' (48): Magnitude + Phase  </sub></b>  </p> | 
 
      
     
-| <p align="center"> <img src="at_CWT_seawave116.png" width="250"  /> </p> | <p align="center"> <img src="at_CWT_rain48.png" width="250"  /> </p> |  
+| <p align="center"> <img src="esc10_sound_classification/docs/figures/at_CWT_seawave116.png" width="250"  /> </p> | <p align="center"> <img src="esc10_sound_classification/docs/figures/at_CWT_rain48.png" width="250"  /> </p> |  
 | ---       |   ---   |
 | <p align="center">  <sub><b> Sea wave aT-CWT transform <br> Units are hidden.  </sub></b>  </p> | <p align="center">   <sub><b>  <b>Rain aT-CWT transform <br> Units are hidden. </sub></b>  </p> |     
     
@@ -202,7 +202,7 @@ At the moment, the <i>aT-CWT</i> Transform is confidential. <br>
 The <i>aT-CWT</i> Transform may help with the difficult "cocktail party problem" and Speech (or Voice) Activity Detection. <br> 
 At some point, the transform will be published and the ESC-10 notebook with 100% accuracy will be made public. 
 
-|<p align="center">   <img src="Classificationreport_100pc.png"  width="350"  /> </p> | <p align="center"> <img src="esc10_v23_100pc.png" width="300"  /> </p> |  
+|<p align="center">   <img src="esc10_sound_classification/docs/figures/Classificationreport_100pc.png"  width="350"  /> </p> | <p align="center"> <img src="esc10_sound_classification/docs/figures/esc10_v23_100pc.png" width="300"  /> </p> |  
 | ---       | ---       |   
 |<p align="center">      <sub><b>  Classification report </sub></b> </p> |<p align="center">   <sub><b>  Confusion matrix  </sub></b>  </p> | 
 
@@ -221,7 +221,7 @@ Reduction of audio clips length and optimization of mel-spectrogram parameters f
  
 <div align="center"> 
 
-| <p align="center"> <img src="Melspectrogram_91pcA.png" width="750"  /> </p>  |  
+| <p align="center"> <img src="esc10_sound_classification/docs/figures/Melspectrogram_91pcA.png" width="750"  /> </p>  |  
 |                           :---                                          |  
 | <p align="center"> <sub><b> Mel-spectrograms (dB) </b></sub> </p>       |  
 
@@ -240,7 +240,7 @@ Applying different wavelets to each type of sound significantly improves classif
 
 <div align="center"> 
 
-|<p align="center"><img src="CWT_Magnitude_3pics.png"  width="750"  /> </p> | 
+|<p align="center"><img src="esc10_sound_classification/docs/figures/CWT_Magnitude_3pics.png"  width="750"  /> </p> | 
 |                                             :---                          |  
 | <p align="center"> <sub><b> <i>Scalograms magnitude (dB)</i></b></sub> </p>      |  
 
@@ -248,7 +248,7 @@ Applying different wavelets to each type of sound significantly improves classif
  
 <div align="center"> 
 
-| <p align="center"> <img src="CWT_Phase_3pics.png" width="750"  /> </p>  |  
+| <p align="center"> <img src="esc10_sound_classification/docs/figures/CWT_Phase_3pics.png" width="750"  /> </p>  |  
 |                           :---                                          |  
 | <p align="center"> <sub><b> Scalograms phase (rad)  </b></sub> </p>       |  
 
@@ -265,7 +265,7 @@ Combining Mel-Spectrograms (Part I) with Complex Wavelets Transforms (Part II) e
 
  <div align="center"> 
 
-| <p align="center"> <img src="Fusion_images_3pics.png" width="750"  /> </p>  |  
+| <p align="center"> <img src="esc10_sound_classification/docs/figures/Fusion_images_3pics.png" width="750"  /> </p>  |  
 |                           :---                                          |  
 | <p align="center"> <sub><b> <i>Rooster: Scalogram Magnitude (dB),  Phase (rad) + Mel-spectrogram (dB)</i></b></sub> </p>       |  
 
