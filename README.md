@@ -34,14 +34,12 @@ We develop our own pre-processing techniques for achieving best accuracy results
  We will train a Convolution Neural Network with grayscale spectrograms and scalograms. We target an accuracy >>90 %. </b>  
  When tests with the most effective CNN algorithm implementation are completed, we will run predictions with various audio clips downloaded from Youtube. And eventually update CNN hyperparameters. 
 
- 
+
 #### Classification Pipeline
 
-This project includes a streamlined pipeline for environmental sound classification, implemented in the `esc10_sound_classification` directory. The core script, [`esc10_sound_classification/src/main.py`](esc10_sound_classification/src/main.py), loads the ESC-10 dataset, generates features (CWT, aT-CWT, Mel spectrograms), and trains a two-stage CNN model, achieving 100% accuracy with the aT-CWT transform. 
+This project features a pipeline for environmental sound classification in the `esc10_sound_classification` directory, based on the latest Jupyter notebook, *Part IV* (available in the main repository). The main script, [`esc10_sound_classification/src/main.py`](esc10_sound_classification/src/main.py), processes the ESC-10 dataset, generates features (CWT, aT-CWT, Mel spectrograms), and trains a two-stage CNN, achieving **99% accuracy** with CWT+Mel spectrograms and **100% accuracy** with a confidential aT-CWT transform (not shared). 
 
-To run the pipeline, navigate to `esc10_sound_classification/` and execute `python src/main.py`. Detailed setup instructions, including virtual environment configuration and data placement, are in [`esc10_sound_classification/README.md`](esc10_sound_classification/README.md).
-
-
+Run it by navigating to `esc10_sound_classification/` and executing `python src/main.py`. See [`esc10_sound_classification/README.md`](esc10_sound_classification/README.md) for setup, including virtual environment and data instructions.
  
 
 ## ESC-10 Type of sounds/noises   
