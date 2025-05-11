@@ -21,14 +21,15 @@ Classifies sounds like dog barks, rain, and chainsaws using the ESC-10 dataset w
         source venv/bin/activate
         ```
 
-     3. **Install requirements**:
+3. **Install requirements**:
         ```cmd
         pip install -r requirements.txt
         ```
 
-     4. **Download ESC-10 data**:
+4. **Download ESC-10 data**:
         - Get the ESC-10 dataset (~40 MB) from [ESC-50 Dataset](https://github.com/karolpiczak/ESC-50).
         - Place audio files in `data/raw/` (e.g., `data/raw/audio/`).
+   
 
      ## Running the Pipeline
 
