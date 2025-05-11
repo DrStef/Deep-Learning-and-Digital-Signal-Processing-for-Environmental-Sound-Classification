@@ -10,39 +10,7 @@ Classifies sounds like dog barks, rain, and chainsaws using the ESC-10 dataset w
         git clone https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification.git
         cd Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/esc10_sound_classification
         ```
-
-
-
-     1. **Clone the repository**:
-        ```cmd
-        git clone https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification.git
-        cd Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/esc10_sound_classification
-        ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     Classifies sounds like dog barks, rain, and chainsaws using the ESC-10 dataset with wavelets and a CNN, hitting **99% accuracy** with CWT+Melspectrograms and **100% accuracy** with confidential transform aT-CWT (not shared here). 
-
-     ## Setup
-
-     1. **Clone the repository**:
-        ```cmd
-        git clone https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification.git
-        cd Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/esc10_sound_classification
-        ```
-
-     2. **Create and activate a virtual environment**:
+2. **Create and activate a virtual environment**:
         ```cmd
         python -m venv venv
         venv\Scripts\activate
