@@ -31,18 +31,18 @@ Classifies sounds like dog barks, rain, and chainsaws using the ESC-10 dataset w
         - Place audio files in `data/raw/` (e.g., `data/raw/audio/`).
    
 
-     ## Running the Pipeline
+## Running the Pipeline
 
      Run the full pipeline (loads data, generates features, trains model):
      ```cmd
      python src/main.py
      ```
 
-     ## Data
+## Data
 
      ESC-10 audio (~40 MB) is not included. Download from [ESC-50 Dataset](https://github.com/karolpiczak/ESC-50) and place in `data/raw/`. Processed features (CWT, aT-CWT, Mel spectrograms, ~250 MB) are saved to `data/processed/` by `src/features/cwt.py`, `src/features/at_cwt.py`, or `src/features/mel_spectrogram.py`. Contact DrStef for preprocessed features.
 
-     ## Folders
+## Folders
 
      - `src/`: Pipeline code.
        - `data/`: Loading (`load_esc10.py`), preprocessing (`preprocess.py`).
