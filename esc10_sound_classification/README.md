@@ -1,15 +1,15 @@
 # ESC-10 Sound Classification Pipeline
 
 
-Classifies sounds like dog barks, rain, and chainsaws using the ESC-10 dataset with wavelets and a CNN, hitting **99% accuracy** with CWT+Melspectrograms and **100% accuracy** with confidential transform aT-CWT (not shared here).
-
-     ## Setup
+Classifies sounds like dog barks, rain, and chainsaws using the ESC-10 dataset with wavelets and a CNN, hitting **99% accuracy** with CWT+Melspectrograms and **100% accuracy** with confidential transform aT-CWT (not shared here). ## Setup
 
      1. **Clone the repository**:
         ```cmd
         git clone https://github.com/DrStef/Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification.git
         cd Deep-Learning-and-Digital-Signal-Processing-for-Environmental-Sound-Classification/esc10_sound_classification
         ```
+
+
 
 
 
