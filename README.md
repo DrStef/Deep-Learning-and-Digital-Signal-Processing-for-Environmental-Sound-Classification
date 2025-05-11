@@ -136,13 +136,13 @@ We define two sounds classes A,B:
 
 | <p align="center">   <img src="StageI_preclassificationv2.png"  width="800"  /> </p> |
 | --- | 
-|<center> <i> Methodology:  Stage I  </i> </center> |
+| <p align="center"> <i> Methodology:  Stage I  </i> </p> |
 
 <span style="color:#4169E1">   Results:
     
 |<p align="center">   <img src="ESC10_ClassificationStageI.png"  width="350"  /> </p> | <p align="center"> <img src="ESC10_ConfusionMatrixStageI.png" width="250"  /> </p> |  
 | ---       | ---       |   
-|<center> <i> Classification report </i></center> | <center> <i> Confusion matrix </i> </center>|
+|<p align="center">  <i> Classification report </i></p> | <p align="center"> <i> Confusion matrix </i> </p>|
 
 A 100% acuracy classification was achieved with Mel-spectrograms defined between 0-2000Hz and a CNN model.  <br> 
 <b> At the moment this stage is left as an exercise. </b> We will propose a simpler method. 
@@ -154,7 +154,7 @@ We apply two sets of complex continuous wavelets to each sound class A, B and ru
   
 | <p align="center">   <img src="StageII_classification_I.png"  width="800"  /> </p> |
 | --- |  
-|<center> <i> Methodology Stage II </i> </center> |   
+|<p align="center">  <i> Methodology Stage II </i> </p> |   
 
 
 
@@ -163,7 +163,7 @@ We apply two sets of complex continuous wavelets to each sound class A, B and ru
 
 |<p align="center">   <img src="Fusion_Wavelet_Phase_Classification_99pc.png"  width="350"  /> </p> | <p align="center"> <img src="Fusion_Wavelet_Phase_ConfusionMatrix_99pc.png" width="300"  /> </p> |  
 | ---       | ---       |   
-|<center><i> Classification report </i> </center> | <center> <i> Confusion matrix </i> </center> | 
+|<p align="center">   <i> Classification report </i> </center> | <center> <i> Confusion matrix </i> </p> | 
 
 The remaining confusion: "sea wave" "rain" is solved by developping a transform of the CWT: <i> aT-CWT </i>. <br>
 Preliminary results are presented in Part V.  The <i> aT-CWT </i> transform is currently confidential. 
@@ -185,18 +185,18 @@ Using the strategy decribed in this Notebook, and replacing the unwrap CWT phase
     
 |<p align="center">   <img src="SW_CWT.png"  width="600"  /> </p> | 
 | ---       | 
-|<center><i> 'cgau5' CWT of a ESC-10 'Sea Wave' (116): Magnitude + Phase </i> </center> | 
+|<p align="center">   <i> 'cgau5' CWT of a ESC-10 'Sea Wave' (116): Magnitude + Phase </i> </p> | 
 
 
 |<p align="center">   <img src="Rain_CWT.png"  width="600"  /> </p> | 
 | ---       |
-|<center><i> 'cgau5' CWT of a ESC-10 'Rain' (48): Magnitude + Phase </i> </center> | 
+|<p align="center">  <i> 'cgau5' CWT of a ESC-10 'Rain' (48): Magnitude + Phase </i> </p> | 
 
      
     
 | <p align="center"> <img src="at_CWT_seawave116.png" width="250"  /> </p> | <p align="center"> <img src="at_CWT_rain48.png" width="250"  /> </p> |  
 | ---       |   ---   |
-| <center> <i><b> Sea wave</b> aT-CWT transform <br> Units are hidden. </i> </center> | <center> <i> <b>Rain</b> aT-CWT transform <br> Units are hidden. </i> </center> |     
+| <p align="center">  <i><b> Sea wave</b> aT-CWT transform <br> Units are hidden. </i> </p> | <p align="center">  <i> <b>Rain</b> aT-CWT transform <br> Units are hidden. </i> </p> |     
     
 At the moment, the <i>aT-CWT</i> Transform is confidential. <br>
 The <i>aT-CWT</i> Transform may help with the difficult "cocktail party problem" and Speech (or Voice) Activity Detection. <br> 
@@ -204,7 +204,7 @@ At some point, the transform will be published and the ESC-10 notebook with 100%
 
 |<p align="center">   <img src="Classificationreport_100pc.png"  width="350"  /> </p> | <p align="center"> <img src="esc10_v23_100pc.png" width="300"  /> </p> |  
 | ---       | ---       |   
-|<center><i> Classification report </i> </center> | <center> <i> Confusion matrix </i> </center> | 
+|<p align="center">     <i> Classification report </i> </p> |<p align="center">    <i> Confusion matrix </i> </p> | 
 
 <br>
 
